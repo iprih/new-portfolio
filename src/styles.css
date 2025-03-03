@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    color: blueviolet;
+}
+
+a{
+    text-emphasis: none;
+    color: #444;
+    transition: .4s;
+}
+
+a:hover{
+    color: antiquewhite;    
+}

@@ -1,0 +1,45 @@
+/* Estilizando o cabeçalho */
+header {
+    display: flex;
+    justify-content: center;
+    background: #222;
+    padding: 20px 0;
+  }
+  
+  /* Estilizando a navegação */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo dos itens do menu */
+  nav ul li {
+    position: relative;
+  }
+  
+  /* Links do menu */
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background: #444;
+    border: 2px solid white;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Efeito de animação ao passar o mouse */
+  nav ul li a:hover {
+    background: #ffcc00;
+    color: #222;
+    transform: scale(1.1);
+    box-shadow: 0px 0px}
