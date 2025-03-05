@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import profileData from '../../../data/profile.data';
 
 @Component({
   selector: 'app-about',
@@ -8,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
 
+  
 }

@@ -3,15 +3,20 @@
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    color: blueviolet;
+    color: rgba(243, 235, 252, 0.315);
+    background-color: black;
+
 }
 
 a{
     text-emphasis: none;
-    color: #444;
+    color: #dad5d5;
     transition: .4s;
 }
 
 a:hover{
     color: antiquewhite;    
+}
+.break-line{
+    white-space: pre-wrap;
 }
